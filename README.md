@@ -24,17 +24,21 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Hashing functions
    takes an input of any data type and produces an integer assigned to the unique value of that input
+
 2. Collision resolution
    resolving the effects of imperfect hashing function behavior that might allow the duplicate assignment of a particular input value to more than one integer.
    methods for resolving this include separate chaining whereby each slot for a value can potentially hold a linked list of the integers that have been produced for a particular key.
+
 3. Performance of basic hash table operations
    put, search, delete - these execute at a 'constant' runtime of O(1)
 4. Load factor
    ratio of num of items stored / total size
+
 5. Automatic resizing
    when the load factor exceeds an ideal maximum (typically 0.7) trigger the total size of the hashtable to be increased (ideally in such a way that preserves the load factor ratio), when the load factor is less than ideal, trigger the total size to be reduced (ideally in such a way that preserves the load factor ratio)
 6. Various use cases for hash tables
    memcache, quick and efficient access to information via a key
+
    We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
